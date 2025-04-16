@@ -69,7 +69,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -7350,7 +7349,7 @@
 		(pad "1" thru_hole rect
 			(at 0 0 270)
 			(size 1.7 1.7)
-			(drill 1)
+			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 3 "+3V0")
@@ -7361,7 +7360,7 @@
 		(pad "2" thru_hole oval
 			(at 0 -2.54 270)
 			(size 1.7 1.7)
-			(drill 1)
+			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "GND")
@@ -7372,7 +7371,7 @@
 		(pad "3" thru_hole oval
 			(at 0 -5.079999 270)
 			(size 1.7 1.7)
-			(drill 1)
+			(drill 0.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 16 "/SWIO")
